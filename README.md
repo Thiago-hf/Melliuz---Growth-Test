@@ -13,7 +13,7 @@ A aplicação combina o poder determinístico do **Pandas (Python)** para cálcu
 * **Análise Centrada em Margem Real:** O motor calcula o impacto financeiro real através da **Margem de Contribuição** (`Lucro Líquido = Comissão - Cashback`), blindando o negócio contra falsos positivos focados apenas em volume (GMV).
 * **Growth Safety Guard (Trava de Prejuízo):** Algoritmo nativo que deteta cenários onde todas as variantes operam no vermelho. Nesses casos, a plataforma altera automaticamente o status para **Alerta Crítico**, bloqueia sugestões de rollout e emite uma ordem mandatória de interrupção do teste.
 * **Integração na Nuvem (Google Sheets API):** Registo automático de cada teste diretamente numa planilha remota usando credenciais seguras de *Service Account*.
-* **Relatórios Corporativos em PDF:** Geração dinâmica de um sumário executivo exportável formatado com a identidade visual do Méliuz.
+* **Relatórios Corporativos em PDF:** Geração dinâmica de um sumário executivo exportável.
 
 ---
 
